@@ -27,7 +27,7 @@ fun main(args: Array<String>) {
         }
     }
 
-    var maxValString = when (maxVal) {
+    var maxValString = when (maxVal) { //when as expression
         a -> "The max value is a: $a"
         b -> "The max value is b: $b"
         else -> "I don't know what x is"
