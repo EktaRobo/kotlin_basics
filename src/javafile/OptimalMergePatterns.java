@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class OptimalMergePatterns {
     // Function to find minimum computation
-    static int minComputation(int size, int files[]) {
+    static int maxComputation(int size, int files[]) {
 
         // create a min heap
         PriorityQueue<Integer> pq
@@ -57,7 +57,7 @@ public class OptimalMergePatterns {
 
             // total no of computations
             // do be done final answer
-            System.out.println(minComputation(size, files));
+            System.out.println(maxComputation(size, files));
     }
 }
 
